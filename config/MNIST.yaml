@@ -1,0 +1,21 @@
+# general
+train_batch_size: 128
+test_batch_size: 16
+forget_batch_size: 16
+mia_batch_size: 16
+balance_batch_size: 16
+clients: 7
+
+forget_data: "third"
+balance_data: "rest"
+shape: !!python/tuple [ 0, 28, 28 ]
+num_classes: 10
+
+server_epochs: 10
+client_epochs: 5
+unlearn_epochs: 5
+test_epochs: 5
+note: "xx"  #reserved and noise
+rate: 0.1
+ur: 0.01
+frac: 0.5

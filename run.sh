@@ -1,0 +1,1 @@
+python main.py --dataset $1 --model_type target --forget_size $2
