@@ -5,7 +5,7 @@ from os import path
 
 # 设置根路径
 # ROOT_PATH = "/home/zhangdongping/project/normal_fed/fu_subset"
-ROOT_PATH = r"C:\Users\DELL\Desktop\documents\FU HAR\fu_subset"
+ROOT_PATH = "/home/ypchaihkmu/my-git-info"
 
 # 获取模型保存路径
 def get_model_path():
